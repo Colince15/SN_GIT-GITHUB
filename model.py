@@ -11,7 +11,7 @@ def train_and_save_model():
     """
     Crée, entraîne et sauvegarde un modèle de classification factice.
     """
-    print("Début de l'entraînement du modèle...")
+    print("Début de l'entraînement du modèle.")
     # Créer des données factices
     X, y = make_classification(n_samples=100, n_features=10, n_informative=5, n_redundant=0, random_state=42)
 

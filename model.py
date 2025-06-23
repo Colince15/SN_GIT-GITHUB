@@ -16,7 +16,7 @@ def train_and_save_model():
     X, y = make_classification(n_samples=100, n_features=10, n_informative=5, n_redundant=0, random_state=42)
 
     # Créer et entraîner un modèle simple
-    model = LogisticRegression()
+    model = LogisticRegression(C=0.1) # Amélioration du modèle
     model.fit(X, y)
     print("Modèle entraîné.")
 

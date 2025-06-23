@@ -86,7 +86,7 @@ jobs:
           body: |
             Hello,
 
-            The model for the repository ${{ github.repository }} has been successfully trained and deployed to the Hugging Face Hub.
+            The model for the repository ${{ github.repository }} has been successfully trained and deployed to the Hugging FaceHub.
 
             You can view the model here:
             https://huggingface.co/${{ secrets.HF_USERNAME }}/${{ secrets.HF_REPO_NAME }}
